@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Loyut</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-i {
+        font-family: "Noto+Sans+Thai+Looped";
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        animation: swing 2s ease-in-out infinite;
+      }
+      
+      .cs-text {
+        font-size: 150px;
+        font-weight: bold;
+        background-image: url("https://picsum.photos/1080/300?radom=1");
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(10px 10px 10px rgb(86, 167, 151));
+      }
+
+      @keyframes swing {
+        0% {
+          transform: rotate(0deg);
+        }
+        25% {
+          transform: rotate(3deg);
+        }
+        50% {
+          transform: rotate(0deg);
+        }
+        75% {
+          transform: rotate(-3deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container font-i ">
+      <p class="cs-text">วิทยาการคอมพิวเตอร์</p>
+    </div>
+  </body>
+</html>
