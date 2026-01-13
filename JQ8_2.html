@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CS Shopping</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-white">
+
+
+<nav class="w-full border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+
+    <div class="flex items-center gap-2 text-blue-600 font-bold text-lg">
+      <i class="fab fa-apple"></i>
+      <span>CS Shopping</span>
+    </div>
+
+   
+    <div class="hidden md:flex gap-10 text-gray-500 text-sm">
+      <a href="#" class="hover:text-blue-600">Category</a>
+      <a href="#" class="hover:text-blue-600">Product</a>
+      <a href="#" class="hover:text-blue-600">Order</a>
+      <a href="#" class="hover:text-blue-600">Contact</a>
+      <a href="#" class="hover:text-blue-600">About</a>
+    </div>
+
+    <div class="flex items-center gap-4">
+
+     
+      <div class="relative">
+        <input type="text" placeholder="Search..."
+          class="border rounded-full px-4 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-40">
+        <i class="fas fa-search absolute right-3 top-2 text-gray-400 text-sm"></i>
+      </div>
+
+     
+      <div class="relative cursor-pointer">
+        <i class="fas fa-shopping-cart text-gray-600 text-lg"></i>
+        <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">5</span>
+      </div>
+
+     
+      <button class="bg-blue-600 text-white px-4 py-1.5 rounded-md text-sm hover:bg-blue-700">Login
+      </button>
+
+    </div>
+  </div>
+</nav>
+
+</body>
+</html>
